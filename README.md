@@ -18,7 +18,9 @@ Features
 
         2 to 5 numbers (hardcoded optimal moves).
 
-        Large inputs using Greedy Chunk Sort.
+		< 500 numbers using Greedy Longest Increasing Subsequence Sort.
+
+        Large inputs (> 500) using Greedy Chunk Sort.
 
     Optimized move generation:
 
