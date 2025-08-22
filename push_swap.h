@@ -6,7 +6,7 @@
 /*   By: jinliang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/25 12:08:32 by jinliang          #+#    #+#             */
-/*   Updated: 2025/08/22 15:38:56 by jinliang         ###   ########.fr       */
+/*   Updated: 2025/08/22 17:05:40 by jinliang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,6 @@ t_stack	*init_stack(t_stack **stack, char **numb, int count);
 /* LIS flagging */
 void	fill_indices_array(t_stack *stack, t_lis *lis);
 void	compute_lis_arrays(t_lis *lis);
-void	backtrack_lis(t_lis *lis);
 void	mark_from_lookup(t_stack *stack, t_lis *lis);
 void	get_lis_flags(t_stack *a, int n);
 
